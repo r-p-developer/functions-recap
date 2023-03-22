@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  background-color: lightslategrey;
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#play {
+  display: inline-block;
+  border: none;
+  margin-top: 12px;
+  border-radius: 4px;
+  padding: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrapper {
+  width: 800px;
+}
+
+.box {
+  border-bottom: 1px solid #333;
+  padding: 20px;
+  background-color: lightblue;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.finalPrice {
+  margin-top: 20px;
+  text-align: right;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+ul > li {
+  padding: 5px;
+  border-bottom: 1px dotted black;
+}
+
+.close ul{
+  display: none;
+}
